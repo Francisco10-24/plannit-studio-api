@@ -1,0 +1,22 @@
+{
+  "paquetes": [
+    { "id": 1, "nombre": "Glam Rosa y Dorado", "decorador": "Deco Studio Luna", "zona": "Santa Tecla", "estilo": "Glam", "eventos": ["Cumpleaños", "Quince años"], "precio": 285.0, "rating": 4.8, "resenas": 126, "colores": ["#F2B8C6", "#D4A64A", "#FFFFFF", "#9B1B30"], "incluye": "Arco de globos + mesa principal", "etiqueta": "Favorito de clientes", "imagen": "https://images.unsplash.com/photo-1741969494307-55394e3e4071?w=900&q=80&auto=format&fit=crop" },
+    { "id": 2, "nombre": "Jardín Boho Pampa", "decorador": "Pampa Deco", "zona": "Escalón", "estilo": "Boho", "eventos": ["Bodas", "Baby shower"], "precio": 340.0, "rating": 4.9, "resenas": 84, "colores": ["#E8D8C3", "#C9A27E", "#8A9A5B", "#FFFFFF"], "incluye": "Pasillo de pampas + 8 centros de mesa", "etiqueta": "Nuevo en catálogo", "imagen": "https://images.unsplash.com/photo-1780337092739-af81fdabf5ca?w=900&q=80&auto=format&fit=crop" },
+    { "id": 3, "nombre": "Fiesta Arcoíris", "decorador": "Globos y Flores 503", "zona": "San Benito", "estilo": "Temática", "eventos": ["Infantil", "Cumpleaños"], "precio": 195.0, "rating": 4.7, "resenas": 58, "colores": ["#F4C542", "#4FA3E0", "#E85D75", "#7BC67E"], "incluye": "Backdrop de globos + mesa de dulces", "etiqueta": "", "imagen": "https://images.unsplash.com/photo-1560128411-79892dd93bf8?w=900&q=80&auto=format&fit=crop" },
+    { "id": 4, "nombre": "Minimal Blanco Lino", "decorador": "Deco Studio Luna", "zona": "Antiguo Cuscatlán", "estilo": "Minimal", "eventos": ["Bodas", "Graduación"], "precio": 260.0, "rating": 4.6, "resenas": 41, "colores": ["#FFFFFF", "#EDE6DC", "#B9A58C", "#5C5348"], "incluye": "Mesa principal + 6 arreglos florales", "etiqueta": "", "imagen": "https://images.unsplash.com/photo-1684243920725-956d93ff391a?w=900&q=80&auto=format&fit=crop" },
+    { "id": 5, "nombre": "Graduación Dorada", "decorador": "Globos y Flores 503", "zona": "Santa Tecla", "estilo": "Glam", "eventos": ["Graduación"], "precio": 230.0, "rating": 4.8, "resenas": 37, "colores": ["#1F1F1F", "#D4A64A", "#FFFFFF", "#9B1B30"], "incluye": "Arco de globos + letrero personalizado", "etiqueta": "", "imagen": "https://images.unsplash.com/photo-1758682016275-59c2dd2e0aee?w=900&q=80&auto=format&fit=crop" },
+    { "id": 6, "nombre": "Quince Luces Rosa", "decorador": "Brillo Eventos", "zona": "San Salvador", "estilo": "Glam", "eventos": ["Quince años"], "precio": 310.0, "rating": 4.7, "resenas": 52, "colores": ["#F7A8C4", "#FFFFFF", "#D4A64A", "#6B2D5C"], "incluye": "Número LED + arco de globos + mesa", "etiqueta": "Favorito de clientes", "imagen": "https://images.unsplash.com/photo-1767070805937-de496d694419?w=900&q=80&auto=format&fit=crop" }
+  ],
+  "extras": [
+    { "id": 1, "nombre": "Arco de globos orgánico", "detalle": "Estructura de 2.5 m con montaje", "precio": 95.0, "imagen": "https://images.unsplash.com/photo-1602328790041-ee36d98e677c?w=900&q=80&auto=format&fit=crop" },
+    { "id": 2, "nombre": "Letras LED gigantes", "detalle": "Altura 1.2 m con iluminación cálida", "precio": 60.0, "imagen": "https://images.unsplash.com/photo-1758870041148-31d28fdf34d9?w=900&q=80&auto=format&fit=crop" },
+    { "id": 3, "nombre": "Centros de mesa florales x8", "detalle": "Flores naturales de temporada", "precio": 120.0, "imagen": "https://images.unsplash.com/photo-1609670002360-153929958683?w=900&q=80&auto=format&fit=crop" }
+  ],
+  "decoradores": [
+    { "id": 1, "nombre": "Deco Studio Luna", "zona": "Santa Tecla", "rating": 4.9, "imagen": "https://images.unsplash.com/photo-1587160728015-924483626a1a?w=900&q=80&auto=format&fit=crop" },
+    { "id": 2, "nombre": "Globos y Flores 503", "zona": "Escalón", "rating": 4.8, "imagen": "https://images.unsplash.com/photo-1611142288262-3bb8f5fc45d7?w=900&q=80&auto=format&fit=crop" },
+    { "id": 3, "nombre": "Pampa Deco", "zona": "San Benito", "rating": 4.9, "imagen": "https://images.unsplash.com/photo-1605101417781-b069480f938a?w=900&q=80&auto=format&fit=crop" },
+    { "id": 4, "nombre": "Brillo Eventos", "zona": "San Salvador", "rating": 4.7, "imagen": "https://images.unsplash.com/photo-1597509679245-6fe7e1d7781c?w=900&q=80&auto=format&fit=crop" }
+  ],
+  "solicitudes": []
+}
