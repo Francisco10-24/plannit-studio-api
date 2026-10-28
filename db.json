@@ -1,22 +1,629 @@
 {
   "paquetes": [
-    { "id": 1, "nombre": "Glam Rosa y Dorado", "decorador": "Deco Studio Luna", "zona": "Santa Tecla", "estilo": "Glam", "eventos": ["Cumpleaños", "Quince años"], "precio": 285.0, "rating": 4.8, "resenas": 126, "colores": ["#F2B8C6", "#D4A64A", "#FFFFFF", "#9B1B30"], "incluye": "Arco de globos + mesa principal", "etiqueta": "Favorito de clientes", "imagen": "https://images.unsplash.com/photo-1741969494307-55394e3e4071?w=900&q=80&auto=format&fit=crop" },
-    { "id": 2, "nombre": "Jardín Boho Pampa", "decorador": "Pampa Deco", "zona": "Escalón", "estilo": "Boho", "eventos": ["Bodas", "Baby shower"], "precio": 340.0, "rating": 4.9, "resenas": 84, "colores": ["#E8D8C3", "#C9A27E", "#8A9A5B", "#FFFFFF"], "incluye": "Pasillo de pampas + 8 centros de mesa", "etiqueta": "Nuevo en catálogo", "imagen": "https://images.unsplash.com/photo-1780337092739-af81fdabf5ca?w=900&q=80&auto=format&fit=crop" },
-    { "id": 3, "nombre": "Fiesta Arcoíris", "decorador": "Globos y Flores 503", "zona": "San Benito", "estilo": "Temática", "eventos": ["Infantil", "Cumpleaños"], "precio": 195.0, "rating": 4.7, "resenas": 58, "colores": ["#F4C542", "#4FA3E0", "#E85D75", "#7BC67E"], "incluye": "Backdrop de globos + mesa de dulces", "etiqueta": "", "imagen": "https://images.unsplash.com/photo-1560128411-79892dd93bf8?w=900&q=80&auto=format&fit=crop" },
-    { "id": 4, "nombre": "Minimal Blanco Lino", "decorador": "Deco Studio Luna", "zona": "Antiguo Cuscatlán", "estilo": "Minimal", "eventos": ["Bodas", "Graduación"], "precio": 260.0, "rating": 4.6, "resenas": 41, "colores": ["#FFFFFF", "#EDE6DC", "#B9A58C", "#5C5348"], "incluye": "Mesa principal + 6 arreglos florales", "etiqueta": "", "imagen": "https://images.unsplash.com/photo-1684243920725-956d93ff391a?w=900&q=80&auto=format&fit=crop" },
-    { "id": 5, "nombre": "Graduación Dorada", "decorador": "Globos y Flores 503", "zona": "Santa Tecla", "estilo": "Glam", "eventos": ["Graduación"], "precio": 230.0, "rating": 4.8, "resenas": 37, "colores": ["#1F1F1F", "#D4A64A", "#FFFFFF", "#9B1B30"], "incluye": "Arco de globos + letrero personalizado", "etiqueta": "", "imagen": "https://images.unsplash.com/photo-1758682016275-59c2dd2e0aee?w=900&q=80&auto=format&fit=crop" },
-    { "id": 6, "nombre": "Quince Luces Rosa", "decorador": "Brillo Eventos", "zona": "San Salvador", "estilo": "Glam", "eventos": ["Quince años"], "precio": 310.0, "rating": 4.7, "resenas": 52, "colores": ["#F7A8C4", "#FFFFFF", "#D4A64A", "#6B2D5C"], "incluye": "Número LED + arco de globos + mesa", "etiqueta": "Favorito de clientes", "imagen": "https://images.unsplash.com/photo-1767070805937-de496d694419?w=900&q=80&auto=format&fit=crop" }
+    {
+      "id": 1,
+      "nombre": "Glam Rosa y Dorado",
+      "decorador": "Deco Studio Luna",
+      "zona": "Santa Tecla",
+      "estilo": "Glam",
+      "eventos": [
+        "Cumpleaños",
+        "Quince años"
+      ],
+      "precio": 285,
+      "rating": 4.8,
+      "resenas": 126,
+      "colores": [
+        "#F2B8C6",
+        "#D4A64A",
+        "#FFFFFF",
+        "#9B1B30"
+      ],
+      "incluye": "Arco de globos + mesa principal",
+      "detalles": [
+        "Arco de globos de 3 m en rosa, dorado y blanco",
+        "Mesa principal con mantel satinado",
+        "Letrero neón personalizado",
+        "Montaje y desmontaje incluidos"
+      ],
+      "descripcion": "Una decoración elegante en tonos rosa y dorado, pensada para fotos. Ideal para cumpleaños de adultos y quince años en salón o casa.",
+      "etiqueta": "Favorito de clientes",
+      "imagen": "https://images.unsplash.com/photo-1741969494307-55394e3e4071?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 2,
+      "nombre": "Jardín Boho Pampa",
+      "decorador": "Pampa Deco",
+      "zona": "San Benito",
+      "estilo": "Boho",
+      "eventos": [
+        "Bodas",
+        "Baby shower"
+      ],
+      "precio": 340,
+      "rating": 4.9,
+      "resenas": 84,
+      "colores": [
+        "#E8D8C3",
+        "#C9A27E",
+        "#8A9A5B",
+        "#FFFFFF"
+      ],
+      "incluye": "Pasillo de pampas + 8 centros de mesa",
+      "detalles": [
+        "Pasillo de ceremonia con hierba de pampas",
+        "8 centros de mesa con flores secas",
+        "Telas en lino y madera natural",
+        "Asesoría de colores previa"
+      ],
+      "descripcion": "Estilo bohemio con pampas, telas claras y madera. Funciona muy bien al aire libre o en terrazas.",
+      "etiqueta": "Nuevo en catálogo",
+      "imagen": "https://images.unsplash.com/photo-1780337092739-af81fdabf5ca?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 3,
+      "nombre": "Fiesta Arcoíris",
+      "decorador": "Globos y Flores 503",
+      "zona": "Escalón",
+      "estilo": "Temática",
+      "eventos": [
+        "Infantil",
+        "Cumpleaños"
+      ],
+      "precio": 195,
+      "rating": 4.7,
+      "resenas": 58,
+      "colores": [
+        "#F4C542",
+        "#4FA3E0",
+        "#E85D75",
+        "#7BC67E"
+      ],
+      "incluye": "Backdrop de globos + mesa de dulces",
+      "detalles": [
+        "Backdrop de globos multicolor",
+        "Mesa de dulces decorada",
+        "Centros de mesa para 6 mesas",
+        "Montaje incluido"
+      ],
+      "descripcion": "Colores vivos para fiestas infantiles llenas de energía. Queda increíble en fotos.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1560128411-79892dd93bf8?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 4,
+      "nombre": "Minimal Blanco Lino",
+      "decorador": "Deco Studio Luna",
+      "zona": "Antiguo Cuscatlán",
+      "estilo": "Minimal",
+      "eventos": [
+        "Bodas",
+        "Graduación"
+      ],
+      "precio": 260,
+      "rating": 4.6,
+      "resenas": 41,
+      "colores": [
+        "#FFFFFF",
+        "#EDE6DC",
+        "#B9A58C",
+        "#5C5348"
+      ],
+      "incluye": "Mesa principal + 6 arreglos florales",
+      "detalles": [
+        "Mesa principal con mantel de lino",
+        "6 arreglos florales blancos",
+        "Velas y candelabros",
+        "Montaje y desmontaje"
+      ],
+      "descripcion": "Blancos, lino y flores naturales para un evento sobrio y muy elegante.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1684243920725-956d93ff391a?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 5,
+      "nombre": "Graduación Dorada",
+      "decorador": "Globos y Flores 503",
+      "zona": "Santa Tecla",
+      "estilo": "Glam",
+      "eventos": [
+        "Graduación"
+      ],
+      "precio": 230,
+      "rating": 4.8,
+      "resenas": 37,
+      "colores": [
+        "#1F1F1F",
+        "#D4A64A",
+        "#FFFFFF",
+        "#9B1B30"
+      ],
+      "incluye": "Arco de globos + letrero personalizado",
+      "detalles": [
+        "Arco de globos negro y dorado",
+        "Letrero con nombre y año de graduación",
+        "Mesa de pastel decorada",
+        "Montaje incluido"
+      ],
+      "descripcion": "Celebra el logro con negro y dorado, letrero personalizado y un rincón listo para fotos con la toga.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1758682016275-59c2dd2e0aee?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 6,
+      "nombre": "Quince Luces Rosa",
+      "decorador": "Brillo Eventos",
+      "zona": "San Salvador",
+      "estilo": "Glam",
+      "eventos": [
+        "Quince años"
+      ],
+      "precio": 310,
+      "rating": 4.7,
+      "resenas": 52,
+      "colores": [
+        "#F7A8C4",
+        "#FFFFFF",
+        "#D4A64A",
+        "#6B2D5C"
+      ],
+      "incluye": "Número LED + arco de globos + mesa",
+      "detalles": [
+        "Número 15 iluminado de 1.2 m",
+        "Arco de globos rosa y blanco",
+        "Mesa principal con faldón",
+        "Iluminación cálida"
+      ],
+      "descripcion": "Un clásico de quince años con número iluminado y luces cálidas para el vals.",
+      "etiqueta": "Favorito de clientes",
+      "imagen": "https://images.unsplash.com/photo-1767070805937-de496d694419?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 7,
+      "nombre": "Noche de Luces Cálidas",
+      "decorador": "Velo & Seda",
+      "zona": "Merliot",
+      "estilo": "Boho",
+      "eventos": [
+        "Bodas"
+      ],
+      "precio": 420,
+      "rating": 4.9,
+      "resenas": 67,
+      "colores": [
+        "#F5E6C8",
+        "#C9A27E",
+        "#3B2F2F",
+        "#FFFFFF"
+      ],
+      "incluye": "Cortina de luces + velas + flores",
+      "detalles": [
+        "Cortina de luces cálidas de 6 m",
+        "40 velas en vasos de cristal",
+        "Arreglos florales en tonos crema",
+        "Montaje nocturno incluido"
+      ],
+      "descripcion": "Ambiente íntimo con cientos de luces cálidas. Perfecto para recepciones de noche.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1607861884586-c7cfaed16290?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 8,
+      "nombre": "Recepción Jardín Blanco",
+      "decorador": "Velo & Seda",
+      "zona": "Antiguo Cuscatlán",
+      "estilo": "Minimal",
+      "eventos": [
+        "Bodas"
+      ],
+      "precio": 480,
+      "rating": 4.8,
+      "resenas": 45,
+      "colores": [
+        "#FFFFFF",
+        "#E9EFE6",
+        "#A8B5A0",
+        "#4A5A45"
+      ],
+      "incluye": "Recepción completa para 100 personas",
+      "detalles": [
+        "Decoración de 10 mesas para 100 personas",
+        "Mesa principal de novios",
+        "Flores blancas y follaje natural",
+        "Coordinación el día del evento"
+      ],
+      "descripcion": "Recepción completa en blanco y verde, pensada para jardines y bodas de día.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1524777313293-86d2ab467344?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 9,
+      "nombre": "Baby Shower Lila",
+      "decorador": "Pequeños Festejos",
+      "zona": "Antiguo Cuscatlán",
+      "estilo": "Temática",
+      "eventos": [
+        "Baby shower"
+      ],
+      "precio": 210,
+      "rating": 4.8,
+      "resenas": 73,
+      "colores": [
+        "#C77DD8",
+        "#F7B6C8",
+        "#FFFFFF",
+        "#E9D7F2"
+      ],
+      "incluye": "Letras de globos + sala lounge",
+      "detalles": [
+        "Letras de globos BABY SHOWER",
+        "Mesa de regalos decorada",
+        "Letrero de bienvenida al bebé",
+        "Montaje incluido"
+      ],
+      "descripcion": "Letras de globos lila y rosa con una sala lounge blanca para recibir al bebé.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1625990462521-a09e6b880d50?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 10,
+      "nombre": "Revelación Rosa o Azul",
+      "decorador": "Pequeños Festejos",
+      "zona": "Santa Tecla",
+      "estilo": "Temática",
+      "eventos": [
+        "Baby shower"
+      ],
+      "precio": 175,
+      "rating": 4.6,
+      "resenas": 29,
+      "colores": [
+        "#F7B6C8",
+        "#9CC9EE",
+        "#FFFFFF",
+        "#D4A64A"
+      ],
+      "incluye": "Globo sorpresa + backdrop dual",
+      "detalles": [
+        "Globo gigante sorpresa con confeti",
+        "Backdrop mitad rosa, mitad azul",
+        "Pizarra de votación niño o niña",
+        "Montaje incluido"
+      ],
+      "descripcion": "Todo listo para el gran momento de revelar si es niño o niña.",
+      "etiqueta": "Nuevo en catálogo",
+      "imagen": "https://images.unsplash.com/photo-1730131069753-f7f8ca92ba50?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 11,
+      "nombre": "Cielo de Globos",
+      "decorador": "Globos y Flores 503",
+      "zona": "Escalón",
+      "estilo": "Temática",
+      "eventos": [
+        "Infantil"
+      ],
+      "precio": 185,
+      "rating": 4.7,
+      "resenas": 48,
+      "colores": [
+        "#4FA3E0",
+        "#F4C542",
+        "#E85D75",
+        "#7BC67E"
+      ],
+      "incluye": "Techo de globos + mesa de dulces",
+      "detalles": [
+        "Techo de globos de colores con cintas",
+        "Globos de helio para los invitados",
+        "Mesa de dulces temática",
+        "Montaje incluido"
+      ],
+      "descripcion": "Un techo lleno de globos de colores flotando: sencillo, alegre y perfecto para niños.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 12,
+      "nombre": "Fiesta Confeti",
+      "decorador": "Pequeños Festejos",
+      "zona": "Antiguo Cuscatlán",
+      "estilo": "Temática",
+      "eventos": [
+        "Infantil",
+        "Cumpleaños"
+      ],
+      "precio": 160,
+      "rating": 4.5,
+      "resenas": 33,
+      "colores": [
+        "#FF8FA3",
+        "#FFD166",
+        "#06D6A0",
+        "#118AB2"
+      ],
+      "incluye": "Globos con confeti + mesa de pastel",
+      "detalles": [
+        "20 globos transparentes con confeti",
+        "Mesa de pastel decorada",
+        "Banderines personalizados",
+        "Montaje incluido"
+      ],
+      "descripcion": "Alegre, colorida y económica. Ideal para cumpleaños en casa.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1531956531700-dc0ee0f1f9a5?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 13,
+      "nombre": "Mesa de Postres Vintage",
+      "decorador": "Brillo Eventos",
+      "zona": "San Salvador",
+      "estilo": "Glam",
+      "eventos": [
+        "Cumpleaños",
+        "Bodas"
+      ],
+      "precio": 150,
+      "rating": 4.6,
+      "resenas": 39,
+      "colores": [
+        "#F3E1D2",
+        "#C8A27C",
+        "#FFFFFF",
+        "#7A4E3B"
+      ],
+      "incluye": "Mesa de postres decorada",
+      "detalles": [
+        "Mesa de postres con bases de cristal",
+        "Flores frescas",
+        "Letrero personalizado",
+        "Montaje incluido (postres no incluidos)"
+      ],
+      "descripcion": "Una mesa de postres de revista para complementar cualquier celebración.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1559090337-ba4123bb1682?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 14,
+      "nombre": "Quince Vals Champán",
+      "decorador": "Velo & Seda",
+      "zona": "Merliot",
+      "estilo": "Glam",
+      "eventos": [
+        "Quince años"
+      ],
+      "precio": 390,
+      "rating": 4.9,
+      "resenas": 61,
+      "colores": [
+        "#F1E3C6",
+        "#D4A64A",
+        "#FFFFFF",
+        "#8C6D46"
+      ],
+      "incluye": "Pista del vals + mesa principal",
+      "detalles": [
+        "Decoración de pista para el vals",
+        "Mesa principal en tonos champán",
+        "Arco floral de entrada",
+        "Iluminación cálida"
+      ],
+      "descripcion": "Elegancia en tonos champán y dorado para que el vals sea inolvidable.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1640827013600-1f5411ec366b?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 15,
+      "nombre": "Quince Jardín Encantado",
+      "decorador": "Pampa Deco",
+      "zona": "San Benito",
+      "estilo": "Boho",
+      "eventos": [
+        "Quince años"
+      ],
+      "precio": 355,
+      "rating": 4.7,
+      "resenas": 26,
+      "colores": [
+        "#1F6F78",
+        "#B5C99A",
+        "#FFFFFF",
+        "#D4A64A"
+      ],
+      "incluye": "Arco floral + mesa principal boho",
+      "detalles": [
+        "Arco floral con flores blancas y follaje",
+        "Mesa principal boho",
+        "Columpio decorativo para fotos",
+        "Montaje incluido"
+      ],
+      "descripcion": "Un jardín de cuento en verdes y turquesa para unos quince años al aire libre.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1714611302520-5afa2c3e26df?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 16,
+      "nombre": "Cena de Graduación",
+      "decorador": "Brillo Eventos",
+      "zona": "Santa Tecla",
+      "estilo": "Minimal",
+      "eventos": [
+        "Graduación"
+      ],
+      "precio": 205,
+      "rating": 4.5,
+      "resenas": 22,
+      "colores": [
+        "#F5E6C8",
+        "#D4A64A",
+        "#FFFFFF",
+        "#3B2F2F"
+      ],
+      "incluye": "Mesa larga + luces colgantes",
+      "detalles": [
+        "Mesa larga para 20 personas",
+        "Luces colgantes cálidas",
+        "Centros de mesa con velas",
+        "Montaje incluido"
+      ],
+      "descripcion": "Una cena larga con luces colgantes para celebrar la graduación con familia y amigos.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 17,
+      "nombre": "Cumpleaños Neón 18",
+      "decorador": "Brillo Eventos",
+      "zona": "San Salvador",
+      "estilo": "Temática",
+      "eventos": [
+        "Cumpleaños"
+      ],
+      "precio": 240,
+      "rating": 4.8,
+      "resenas": 44,
+      "colores": [
+        "#FF4FA3",
+        "#7B2FF7",
+        "#FFFFFF",
+        "#111111"
+      ],
+      "incluye": "Número LED + globos neón",
+      "detalles": [
+        "Número iluminado a elección",
+        "Globos en tonos neón",
+        "Mesa principal",
+        "Iluminación de colores"
+      ],
+      "descripcion": "Para una noche de fiesta: luces, números iluminados y colores intensos.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1758870041148-31d28fdf34d9?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 18,
+      "nombre": "Photo Booth Vintage",
+      "decorador": "Pampa Deco",
+      "zona": "Escalón",
+      "estilo": "Temática",
+      "eventos": [
+        "Bodas",
+        "Quince años",
+        "Cumpleaños"
+      ],
+      "precio": 135,
+      "rating": 4.7,
+      "resenas": 57,
+      "colores": [
+        "#F6D6D6",
+        "#E8D8C3",
+        "#8A9A5B",
+        "#FFFFFF"
+      ],
+      "incluye": "Cabina de fotos con impresión",
+      "detalles": [
+        "Cabina vintage con fotos impresas al momento",
+        "Fondo personalizado",
+        "Accesorios para fotos",
+        "Montaje incluido"
+      ],
+      "descripcion": "El rincón favorito de los invitados: una cabina vintage que imprime las fotos al momento.",
+      "etiqueta": "",
+      "imagen": "https://images.unsplash.com/photo-1578376706507-35e6dd7af19c?w=900&q=80&auto=format&fit=crop"
+    }
   ],
   "extras": [
-    { "id": 1, "nombre": "Arco de globos orgánico", "detalle": "Estructura de 2.5 m con montaje", "precio": 95.0, "imagen": "https://images.unsplash.com/photo-1602328790041-ee36d98e677c?w=900&q=80&auto=format&fit=crop" },
-    { "id": 2, "nombre": "Letras LED gigantes", "detalle": "Altura 1.2 m con iluminación cálida", "precio": 60.0, "imagen": "https://images.unsplash.com/photo-1758870041148-31d28fdf34d9?w=900&q=80&auto=format&fit=crop" },
-    { "id": 3, "nombre": "Centros de mesa florales x8", "detalle": "Flores naturales de temporada", "precio": 120.0, "imagen": "https://images.unsplash.com/photo-1609670002360-153929958683?w=900&q=80&auto=format&fit=crop" }
+    {
+      "id": 1,
+      "nombre": "Arco de globos orgánico",
+      "detalle": "Estructura de 2.5 m con montaje",
+      "precio": 95,
+      "imagen": "https://images.unsplash.com/photo-1602328790041-ee36d98e677c?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 2,
+      "nombre": "Letras LED gigantes",
+      "detalle": "Altura 1.2 m con luz cálida",
+      "precio": 60,
+      "imagen": "https://images.unsplash.com/photo-1758870041148-31d28fdf34d9?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 3,
+      "nombre": "Centros de mesa florales x8",
+      "detalle": "Flores naturales de temporada",
+      "precio": 120,
+      "imagen": "https://images.unsplash.com/photo-1609670002360-153929958683?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 4,
+      "nombre": "Mesa de postres",
+      "detalle": "Bases de cristal y decoración",
+      "precio": 140,
+      "imagen": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 5,
+      "nombre": "Photo booth",
+      "detalle": "Fondo y accesorios para fotos",
+      "precio": 110,
+      "imagen": "https://images.unsplash.com/photo-1778641603107-850c6a5f66c0?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 6,
+      "nombre": "Luces cálidas",
+      "detalle": "Cortina de luces de 6 m",
+      "precio": 75,
+      "imagen": "https://images.unsplash.com/photo-1513625047154-f390b1b0df20?w=900&q=80&auto=format&fit=crop"
+    }
   ],
   "decoradores": [
-    { "id": 1, "nombre": "Deco Studio Luna", "zona": "Santa Tecla", "rating": 4.9, "imagen": "https://images.unsplash.com/photo-1587160728015-924483626a1a?w=900&q=80&auto=format&fit=crop" },
-    { "id": 2, "nombre": "Globos y Flores 503", "zona": "Escalón", "rating": 4.8, "imagen": "https://images.unsplash.com/photo-1611142288262-3bb8f5fc45d7?w=900&q=80&auto=format&fit=crop" },
-    { "id": 3, "nombre": "Pampa Deco", "zona": "San Benito", "rating": 4.9, "imagen": "https://images.unsplash.com/photo-1605101417781-b069480f938a?w=900&q=80&auto=format&fit=crop" },
-    { "id": 4, "nombre": "Brillo Eventos", "zona": "San Salvador", "rating": 4.7, "imagen": "https://images.unsplash.com/photo-1597509679245-6fe7e1d7781c?w=900&q=80&auto=format&fit=crop" }
+    {
+      "id": 1,
+      "nombre": "Deco Studio Luna",
+      "zona": "Santa Tecla",
+      "rating": 4.9,
+      "descripcion": "Decoración glam y minimal para cumpleaños y bodas desde 2019.",
+      "imagen": "https://images.unsplash.com/photo-1587160728015-924483626a1a?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 2,
+      "nombre": "Globos y Flores 503",
+      "zona": "Escalón",
+      "rating": 4.8,
+      "descripcion": "Especialistas en globos, fiestas infantiles y graduaciones.",
+      "imagen": "https://images.unsplash.com/photo-1611142288262-3bb8f5fc45d7?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 3,
+      "nombre": "Pampa Deco",
+      "zona": "San Benito",
+      "rating": 4.9,
+      "descripcion": "Estilo boho con pampas, flores secas y madera natural.",
+      "imagen": "https://images.unsplash.com/photo-1605101417781-b069480f938a?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 4,
+      "nombre": "Brillo Eventos",
+      "zona": "San Salvador",
+      "rating": 4.7,
+      "descripcion": "Luces, números LED y mesas de postres para fiestas de noche.",
+      "imagen": "https://images.unsplash.com/photo-1597509679245-6fe7e1d7781c?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 5,
+      "nombre": "Pequeños Festejos",
+      "zona": "Antiguo Cuscatlán",
+      "rating": 4.8,
+      "descripcion": "Baby showers, revelaciones y fiestas infantiles temáticas.",
+      "imagen": "https://images.unsplash.com/photo-1768776183122-95c7d3adbf3e?w=900&q=80&auto=format&fit=crop"
+    },
+    {
+      "id": 6,
+      "nombre": "Velo & Seda",
+      "zona": "Merliot",
+      "rating": 4.9,
+      "descripcion": "Bodas y quince años con flores, telas y luces cálidas.",
+      "imagen": "https://images.unsplash.com/photo-1723832348105-2e69f948135a?w=900&q=80&auto=format&fit=crop"
+    }
   ],
   "solicitudes": []
 }
